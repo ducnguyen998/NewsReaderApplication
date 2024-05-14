@@ -31,6 +31,7 @@ namespace NewsReaderSystem
             services.AddSingleton(s => s.CreateServiceProvider());
 
             services.AddSingleton<NavigationStore>();
+            services.AddSingleton<NavigationBarViewmodel>();
 
             services.AddSingleton<SectionsViewmodel>();
             services.AddSingleton<TopStoriesViewmodel>();
@@ -41,6 +42,14 @@ namespace NewsReaderSystem
             services.AddSingleton(s => s.CreateMainWindow());
 
             this.serviceProvider = services.BuildServiceProvider(); 
+        }
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            serviceProvider.GetRequiredService<INavigationService>().Navigate();
+            serviceProvider.GetRequiredService<MainWindow>().Show();
         }
     }
 

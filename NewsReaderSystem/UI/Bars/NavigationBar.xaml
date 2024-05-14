@@ -5,8 +5,28 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NewsReaderSystem.UI.Bars"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+             d:DesignHeight="850" d:DesignWidth="500">
+    <Grid Background="DarkCyan">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Vertical" Margin="20,50">
+                <TextBlock HorizontalAlignment="Center">The</TextBlock>
+                <TextBlock HorizontalAlignment="Center" FontSize="34">Vietnamese</TextBlock>
+                <TextBlock HorizontalAlignment="Center" FontSize="24">News</TextBlock>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Vertical">
+                <Button>Top Stories</Button>
+                <Button>Sections</Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
             
+        </Grid>
     </Grid>
 </UserControl>

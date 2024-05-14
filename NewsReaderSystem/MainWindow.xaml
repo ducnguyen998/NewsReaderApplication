@@ -3,10 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:NewsReaderSystem.UI.Views"
+        xmlns:bars="clr-namespace:NewsReaderSystem.UI.Bars"
+        xmlns:layout="clr-namespace:NewsReaderSystem.UI.Layouts"
         xmlns:local="clr-namespace:NewsReaderSystem"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        mc:Ignorable="d" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" 
+        Title="InspectionAlignSystem.Vega" Height="850" Width="1280">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type views:SectionsViewmodel}">
+            <views:SectionsView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type views:TopStoriesViewmodel}">
+            <views:TopStoriesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type bars:NavigationBarViewmodel}">
+            <bars:NavigationBar/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type layout:MainWindowLayoutViewmodel}">
+            <layout:MainWindowLayout/>
+        </DataTemplate>
+    </Window.Resources>
+    <Border Background="Wheat" CornerRadius="14" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+        <ContentPresenter Content="{Binding CurrentViewmodel}"/>
+    </Border>
 </Window>
