@@ -24,7 +24,7 @@
             <layout:MainWindowLayout/>
         </DataTemplate>
     </Window.Resources>
-    <Border Background="Wheat" CornerRadius="14" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
+    <Border Background="#c0cfc0" CornerRadius="18" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
         <ContentPresenter Content="{Binding CurrentViewmodel}"/>
     </Border>
 </Window>

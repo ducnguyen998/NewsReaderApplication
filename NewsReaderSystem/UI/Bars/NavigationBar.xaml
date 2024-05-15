@@ -4,29 +4,66 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NewsReaderSystem.UI.Bars"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="850" d:DesignWidth="500">
-    <Grid Background="DarkCyan">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <StackPanel Orientation="Vertical" Margin="20,50">
-                <TextBlock HorizontalAlignment="Center">The</TextBlock>
-                <TextBlock HorizontalAlignment="Center" FontSize="34">Vietnamese</TextBlock>
-                <TextBlock HorizontalAlignment="Center" FontSize="24">News</TextBlock>
-            </StackPanel>
+    <Border CornerRadius="9" Background="Ivory">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <StackPanel Orientation="Vertical" Margin="20,50">
+                    <TextBlock HorizontalAlignment="Center" FontSize="20" Margin="0,0,0,-10" FontWeight="Bold" FontStyle="Italic" Foreground="Gray">THE</TextBlock>
+                    <TextBlock HorizontalAlignment="Center" FontSize="25" Margin="0,0,0,30" FontWeight="Bold" FontStyle="Italic" Foreground="Black">Vietnamese</TextBlock>
+                    <Image Source="C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\Resources\news-logo.png" Width="150" Margin="30,-150,30,-120"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.Resources>
+                    <Style TargetType="RadioButton" BasedOn="{StaticResource MaterialDesignTabRadioButtonRight}">
+                        <Setter Property="Height" Value="70"/>
+                        <Setter Property="Background" Value="#30000000"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" Value="#70000000"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="FontSize" Value="16"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="Margin" Value="15,0,0,0"/>
+                    </Style>
+                </Grid.Resources>
+                <StackPanel
+              Margin="4"
+              Orientation="Vertical">
+                    <RadioButton
+                Margin="4"
+                IsChecked="True" 
+                Command="{Binding NavigateTopStoriesCommand}"
+                >
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Newspaper" Height="27" Width="27"/>
+                            <TextBlock>Top stories</TextBlock>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton
+                Margin="4"
+                Command="{Binding NavigateSectionsCommand}" >
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Cards" Height="27" Width="27"/>
+                            <TextBlock>Sections</TextBlock>
+                        </StackPanel>
+                    </RadioButton>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="2">
+
+            </Grid>
         </Grid>
-        <Grid Grid.Row="1">
-            <StackPanel Orientation="Vertical">
-                <Button>Top Stories</Button>
-                <Button>Sections</Button>
-            </StackPanel>
-        </Grid>
-        <Grid Grid.Row="2">
-            
-        </Grid>
-    </Grid>
+    </Border>
 </UserControl>
