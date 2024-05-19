@@ -33,6 +33,8 @@ namespace NewsReaderSystem
             services.AddSingleton<NavigationStore>();
             services.AddSingleton<NavigationBarViewmodel>();
 
+            services.AddSingleton<PaginationBarViewmodel>();
+
             services.AddSingleton<SectionsViewmodel>();
             services.AddSingleton<TopStoriesViewmodel>();
 

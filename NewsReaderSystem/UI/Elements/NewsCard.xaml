@@ -7,31 +7,75 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignWidth="900" d:DesignHeight="400">
-    <Grid Margin="15">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0">
-            <Border CornerRadius="15" Height="200" Background="#50ffffff"></Border>
-        </Grid>
-        <Grid Grid.Column="1">
-            <StackPanel Orientation="Vertical" Margin="20,0,0,0">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-                    <Grid Grid.Column="0">
-                        <TextBlock Foreground="DarkGray" FontSize="19" FontWeight="Bold">Dantri.com</TextBlock>
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Cursor" Value="Arrow"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border TextBlock.Foreground="{TemplateBinding Foreground}"
+                                CornerRadius="20"
+                                BorderThickness="1"
+                                BorderBrush="{TemplateBinding Background}"
+                                Background="{TemplateBinding Background}"
+                                >
+                            <ContentPresenter Margin="2"
+                                              HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              RecognizesAccessKey="True" 
+                                              Content="{TemplateBinding  Content}"
+                                              />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#6044ff40" />
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#60ff4540" />
+                    <Setter Property="Foreground" Value="White" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Button Margin="0,0" BorderThickness="0">
+        <Grid Margin="20,20,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Column="0">
+                <Border CornerRadius="15" Height="300">
+                    <Image Source="{Binding Article.ImageSource}"/>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="1">
+                <StackPanel Orientation="Vertical" Margin="20,0,0,0" VerticalAlignment="Center">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <TextBlock Foreground="Gray" FontSize="20" FontWeight="Bold" Text="{Binding Article.Page}"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <TextBlock Foreground="Gray" FontSize="20" Text="{Binding Article.Time}"></TextBlock>
+                        </Grid>
                     </Grid>
-                    <Grid Grid.Column="1">
-                        <TextBlock Foreground="Gray" FontSize="15">2024-05-15 23:53:30</TextBlock>
-                    </Grid>
-                </Grid>
-                <TextBlock Foreground="DarkGray" FontSize="13" FontWeight="Bold" TextWrapping="WrapWithOverflow" Margin="0,15">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</TextBlock>
-                <TextBlock Foreground="DarkGray" FontSize="13" FontWeight="Normal" TextWrapping="WrapWithOverflow" Margin="0,15">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</TextBlock>
-            </StackPanel>
+                    <TextBlock Foreground="DarkGray" FontSize="27" FontWeight="Bold" TextWrapping="WrapWithOverflow" Margin="0,15" Text="{Binding Article.Title}"></TextBlock>
+                    <TextBlock Foreground="DarkGray" FontSize="22" FontWeight="Normal" TextWrapping="WrapWithOverflow" Margin="0,15" Text="{Binding Article.Summary}"></TextBlock>
+                </StackPanel>
+            </Grid>
         </Grid>
-    </Grid>
+    </Button>
 </UserControl>

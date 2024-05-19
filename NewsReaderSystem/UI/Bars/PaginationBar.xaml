@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="NewsReaderSystem.UI.Bars.PaginationBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NewsReaderSystem.UI.Bars"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" d:DesignWidth="800"
+             >
+    <Grid>
+        <Grid Grid.Row="2" Height="90" Background="#f0000000">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Button Width="220" Height="90" Style="{StaticResource MaterialDesignFlatSecondaryButton}" Command="{Binding PrevCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="ArrowLeftThick" Height="25" Width="25"/>
+                        <TextBlock VerticalAlignment="Center" Margin="10,0,0,0">PREVIOUS</TextBlock>
+                    </StackPanel>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="1">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button Foreground="Gray" Margin="10,0,10,0" Height="60" Width="100"
+                        Style="{StaticResource MaterialDesignFlatLightButton}">
+                        First
+                    </Button>
+                    <RadioButton Foreground="White" GroupName="pb" 
+                                 IsChecked="{Binding CheckedPages[0]}" 
+                                 IsEnabled="{Binding EnabledPages[0]}"
+                                 Content="{Binding ContentPages[0]}"
+                    Style="{StaticResource MaterialDesignTabRadioButton}"></RadioButton>
+                    <RadioButton Foreground="White" GroupName="pb" 
+                                 IsChecked="{Binding CheckedPages[1]}" 
+                                 IsEnabled="{Binding EnabledPages[1]}"
+                                 Content="{Binding ContentPages[1]}"
+                    Style="{StaticResource MaterialDesignTabRadioButton}"></RadioButton>
+                    <RadioButton Foreground="White" GroupName="pb" 
+                                 IsChecked="{Binding CheckedPages[2]}" 
+                                 IsEnabled="{Binding EnabledPages[2]}"
+                                 Content="{Binding ContentPages[2]}"
+                    Style="{StaticResource MaterialDesignTabRadioButton}"></RadioButton>
+                    <RadioButton Foreground="White" GroupName="pb" 
+                                 IsChecked="{Binding CheckedPages[3]}" 
+                                 IsEnabled="{Binding EnabledPages[3]}"
+                                 Content="{Binding ContentPages[3]}"
+                    Style="{StaticResource MaterialDesignTabRadioButton}"></RadioButton>
+                    <RadioButton Foreground="White" GroupName="pb" 
+                                 IsChecked="{Binding CheckedPages[4]}" 
+                                 IsEnabled="{Binding EnabledPages[4]}"
+                                 Content="{Binding ContentPages[4]}"
+                    Style="{StaticResource MaterialDesignTabRadioButton}"></RadioButton>
+                    <Button Foreground="Gray" Margin="10,0,10,0" Height="60" Width="100"
+                    Style="{StaticResource MaterialDesignFlatLightButton}">
+                        Last
+                    </Button>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Button Width="220" Height="90" Style="{StaticResource MaterialDesignFlatSecondaryButton}" Command="{Binding NextCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Margin="0,0,10,0">NEXT</TextBlock>
+                        <materialDesign:PackIcon Kind="ArrowRightThick" Height="25" Width="25"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

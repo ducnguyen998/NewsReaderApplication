@@ -41,6 +41,9 @@
     <Reference Include="CommunityToolkit.Mvvm, Version=8.2.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2, processorArchitecture=MSIL">
       <HintPath>..\packages\CommunityToolkit.Mvvm.8.2.2\lib\netstandard2.0\CommunityToolkit.Mvvm.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.61.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.61\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialDesignColors, Version=3.0.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.3.0.0\lib\net462\MaterialDesignColors.dll</HintPath>
     </Reference>
@@ -100,8 +103,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Crawler\DantriCrawler.cs" />
+    <Compile Include="Crawler\NewsCrawler.cs" />
     <Compile Include="Defines\SystemConstant.cs" />
     <Compile Include="MainWindowViewmodel.cs" />
+    <Compile Include="Models\Article.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\LayoutNavigationService.cs" />
     <Compile Include="Services\NavigationService.cs" />
@@ -110,6 +116,10 @@
       <DependentUpon>NavigationBar.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\Bars\NavigationBarViewmodel.cs" />
+    <Compile Include="UI\Bars\PaginationBar.xaml.cs">
+      <DependentUpon>PaginationBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Bars\PaginationBarViewmodel.cs" />
     <Compile Include="UI\Elements\NewsCard.xaml.cs">
       <DependentUpon>NewsCard.xaml</DependentUpon>
     </Compile>
@@ -118,6 +128,10 @@
       <DependentUpon>MainWindowLayout.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\Layouts\MainWindowLayoutViewmodel.cs" />
+    <Compile Include="UI\Views\ReadingView.xaml.cs">
+      <DependentUpon>ReadingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Views\ReadingViewmodel.cs" />
     <Compile Include="UI\Views\SectionsView.xaml.cs">
       <DependentUpon>SectionsView.xaml</DependentUpon>
     </Compile>
@@ -142,11 +156,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UI\Bars\PaginationBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\Elements\NewsCard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UI\Layouts\MainWindowLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Views\ReadingView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -186,9 +208,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Crawler\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\news-logo.png" />
   </ItemGroup>

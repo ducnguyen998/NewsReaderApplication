@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\App.xaml
-641156334
+81393759446
 
-21-1343333144
-30-1223306549
-MainWindow.xaml;UI\Bars\NavigationBar.xaml;UI\Elements\NewsCard.xaml;UI\Layouts\MainWindowLayout.xaml;UI\Views\SectionsView.xaml;UI\Views\TopStoriesView.xaml;
+281317797632
+31-1920735083
+MainWindow.xaml;UI\Bars\NavigationBar.xaml;UI\Bars\PaginationBar.xaml;UI\Elements\NewsCard.xaml;UI\Layouts\MainWindowLayout.xaml;UI\Views\ReadingView.xaml;UI\Views\SectionsView.xaml;UI\Views\TopStoriesView.xaml;
 
 False
 

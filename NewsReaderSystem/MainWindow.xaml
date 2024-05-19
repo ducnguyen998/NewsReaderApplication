@@ -6,6 +6,7 @@
         xmlns:views="clr-namespace:NewsReaderSystem.UI.Views"
         xmlns:bars="clr-namespace:NewsReaderSystem.UI.Bars"
         xmlns:layout="clr-namespace:NewsReaderSystem.UI.Layouts"
+        xmlns:cards="clr-namespace:NewsReaderSystem.UI.Elements"
         xmlns:local="clr-namespace:NewsReaderSystem"
         mc:Ignorable="d" ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" 
@@ -22,6 +23,9 @@
         </DataTemplate>
         <DataTemplate DataType="{x:Type layout:MainWindowLayoutViewmodel}">
             <layout:MainWindowLayout/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type cards:NewsCardViewmodel}">
+            <cards:NewsCard/>
         </DataTemplate>
     </Window.Resources>
     <Border Background="#c0cfc0" CornerRadius="18" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">

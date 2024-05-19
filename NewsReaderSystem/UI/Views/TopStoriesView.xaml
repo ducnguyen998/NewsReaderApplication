@@ -5,29 +5,60 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NewsReaderSystem.UI.Views"
              xmlns:cards="clr-namespace:NewsReaderSystem.UI.Elements"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:bars="clr-namespace:NewsReaderSystem.UI.Bars"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="1200">
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type cards:NewsCardViewmodel}">
+            <cards:NewsCard/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type bars:PaginationBarViewmodel}">
+            <bars:PaginationBar/>
+        </DataTemplate>
+    </UserControl.Resources>
     <Border CornerRadius="9" Background="#f0000000">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0" Background="#10ffffff">
-                <TextBlock FontWeight="Bold" Foreground="White" FontSize="25" Margin="50,20">Top stories</TextBlock>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <TextBlock FontWeight="Bold" Foreground="White" FontSize="25" Margin="50,20">Top stories</TextBlock>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Margin="20,0,20,0"
+                            Command="{Binding RefreshCommand}">
+                        <materialDesign:PackIcon Foreground="White" Kind="Refresh"/>
+                    </Button>
+                </Grid>
             </Grid>
             <Grid Grid.Row="1">
-                <ScrollViewer>
-                    <StackPanel Orientation="Vertical" Margin="50,20">
-                        <cards:NewsCard/>
-                        <cards:NewsCard/>
-                        <cards:NewsCard/>
-                        <cards:NewsCard/>
-                        <cards:NewsCard/>
-                        <cards:NewsCard/>
-                        <cards:NewsCard/>
-                    </StackPanel>
-                </ScrollViewer>
+                <!--<ScrollViewer>
+                    <ItemsControl ItemsSource="{Binding NewsArticles}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Vertical" Margin="80,20"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </ScrollViewer>-->
+                <ItemsControl ItemsSource="{Binding DisplayNewsArticles}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </ItemsControl>
+            </Grid>
+            <Grid Grid.Row="2">
+                <ContentPresenter Content="{Binding PaginationBar}"/>
             </Grid>
         </Grid>
     </Border>
