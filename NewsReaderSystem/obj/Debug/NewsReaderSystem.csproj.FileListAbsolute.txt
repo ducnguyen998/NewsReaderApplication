@@ -61,3 +61,7 @@ C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReader
 C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\NewsReaderSystem.pdb
 C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\UI\Views\ReadingView.g.cs
 C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\UI\Views\ReadingView.baml
+C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\UI\Elements\Figure.g.cs
+C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\UI\Elements\Paragraph.g.cs
+C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\UI\Elements\Figure.baml
+C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\UI\Elements\Paragraph.baml

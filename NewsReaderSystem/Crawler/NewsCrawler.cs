@@ -33,6 +33,14 @@ namespace NewsReaderSystem.Crawler
 
         }
 
+        public virtual async Task<ArticleDetail> CrawlArticleDetail(Article article)
+        { 
+            return await Task.Run(() =>
+            {
+                return new ArticleDetail();
+            });
+        }
+
         public async Task<BitmapImage> DownloadImageAsync(string imageUrl)
         {
             try

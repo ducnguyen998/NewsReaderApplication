@@ -11,6 +11,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
@@ -29,11 +30,14 @@ namespace NewsReaderSystem.UI.Views
 
         public ICommand RefreshCommand { get; set; }
 
+        public ReadingViewmodel ArticleContent { get; set; }
+
         public TopStoriesViewmodel(PaginationBarViewmodel paginationBarViewmodel)
         {
             RefreshCommand = new RelayCommand(DoRefresh);
             PaginationBar = paginationBarViewmodel;
             PaginationBar.PaginationCommandRaised += OnPaginationCommandRaised;
+            ArticleContent = new ReadingViewmodel();
             NewsArticles = new ObservableCollection<NewsCardViewmodel>();
             DisplayNewsArticles = new ObservableCollection<NewsCardViewmodel>();
             dantriCrawler = new DantriCrawler();
@@ -65,20 +69,27 @@ namespace NewsReaderSystem.UI.Views
                 foreach (Article item in e.NewItems)
                 {
                     this.NewsArticles.Add(new NewsCardViewmodel(item));
+                    this.NewsArticles.Last().AccessNewsExecuted += OnCardAccessNewsExecuted;
                 }
             }
-            else if (e.Action == NotifyCollectionChangedAction.Remove)
-            {
-                foreach (Article item in e.NewItems)
-                {
-                    this.NewsArticles.Remove(new NewsCardViewmodel(item));
-                }
-            }
+            //else if (e.Action == NotifyCollectionChangedAction.Remove)
+            //{
+            //    foreach (Article item in e.NewItems)
+            //    {
+            //        this.NewsArticles.Remove(new NewsCardViewmodel(item));
+            //    }
+            //}
 
             Pages = PaginationBar.SplitPages(NewsArticles, 2);
 
             OnPropertyChanged(nameof(Pages));
             OnPropertyChanged(nameof(NewsArticles));   
+        }
+
+        private async void OnCardAccessNewsExecuted(object sender, Article e)
+        {
+            var articleDetail = await this.dantriCrawler.CrawlArticleDetail(e);
+            this.ArticleContent.SetArticleDetail(articleDetail);
         }
     }
 }

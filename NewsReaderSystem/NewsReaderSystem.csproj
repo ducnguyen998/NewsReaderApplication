@@ -103,11 +103,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\NegatingConverter.cs" />
     <Compile Include="Crawler\DantriCrawler.cs" />
     <Compile Include="Crawler\NewsCrawler.cs" />
     <Compile Include="Defines\SystemConstant.cs" />
     <Compile Include="MainWindowViewmodel.cs" />
     <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\ArticleDetail.cs" />
+    <Compile Include="Models\Author.cs" />
+    <Compile Include="Models\Define.cs" />
+    <Compile Include="Models\IArticleContentElement.cs" />
+    <Compile Include="Models\FigureElement.cs" />
+    <Compile Include="Models\ParagraphElement.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\LayoutNavigationService.cs" />
     <Compile Include="Services\NavigationService.cs" />
@@ -120,10 +127,18 @@
       <DependentUpon>PaginationBar.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\Bars\PaginationBarViewmodel.cs" />
+    <Compile Include="UI\Elements\Figure.xaml.cs">
+      <DependentUpon>Figure.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Elements\FigureViewmodel.cs" />
     <Compile Include="UI\Elements\NewsCard.xaml.cs">
       <DependentUpon>NewsCard.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\Elements\NewsCardViewmodel.cs" />
+    <Compile Include="UI\Elements\Paragraph.xaml.cs">
+      <DependentUpon>Paragraph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Elements\ParagraphViewmodel.cs" />
     <Compile Include="UI\Layouts\MainWindowLayout.xaml.cs">
       <DependentUpon>MainWindowLayout.xaml</DependentUpon>
     </Compile>
@@ -160,7 +175,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UI\Elements\Figure.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\Elements\NewsCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Elements\Paragraph.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

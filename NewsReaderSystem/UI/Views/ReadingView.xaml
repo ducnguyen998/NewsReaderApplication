@@ -4,9 +4,87 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:NewsReaderSystem.UI.Views"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:cards="clr-namespace:NewsReaderSystem.UI.Elements"
+             xmlns:cvt="clr-namespace:NewsReaderSystem.Converters"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type cards:FigureViewmodel}">
+            <cards:Figure/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type cards:ParagraphViewmodel}">
+            <cards:Paragraph/>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Border CornerRadius="9" 
+            Background="#f3000000" 
+            VerticalAlignment="Stretch" 
+            HorizontalAlignment="Stretch" 
+            Height="Auto" Width="Auto"
+            Margin="0"
+            >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Button Height="60" Margin="10" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" VerticalAlignment="Top">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ArrowLeft" Foreground="White" Height="30" Width="30"/>
+                            <TextBlock Foreground="White" FontSize="20" Margin="10,0,0,0">Back</TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <StackPanel Orientation="Vertical" Margin="5,15,5,5">
+                        <TextBlock Style="{StaticResource MaterialDesignHeadline4TextBlock}" Foreground="White"
+                           FontWeight="Bold" TextWrapping="WrapWithOverflow"
+                                   HorizontalAlignment="Center"
+                                   TextAlignment="Center"
+                           Text="{Binding ArticleDetail.Title}" />
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0"
+                                   HorizontalAlignment="Center">
+                            <Ellipse Height="25" Width="25" Stroke="White" StrokeThickness="1.5" Margin="0,0,5,0">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="{Binding ArticleDetail.Author.Avatar}"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <TextBlock Text="{Binding ArticleDetail.Author.Name}" Foreground="White" FontWeight="SemiBold" FontSize="15" VerticalAlignment="Center" Margin="7,0,0,0"></TextBlock>
+                            <materialDesign:PackIcon Kind="CircleSmall" Foreground="White" Height="30" Width="30" VerticalAlignment="Center"/>
+                            <TextBlock Foreground="White" VerticalAlignment="Center" FontSize="15" Text="{Binding ArticleDetail.Author.PostedTime}"></TextBlock>
+                            <materialDesign:PackIcon Kind="CircleSmall" Foreground="White" Height="30" Width="30" VerticalAlignment="Center"/>
+                            <TextBlock Foreground="White" VerticalAlignment="Center" FontSize="15">dantri.com.vn</TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Button Height="60" Margin="10" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" VerticalAlignment="Top">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="BackspaceOutline" Foreground="Red" Height="30" Width="30"/>
+                            <TextBlock Foreground="Red" FontSize="20" Margin="10,0,0,0">Close</TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <ScrollViewer>
+                    <ItemsControl ItemsSource="{Binding Elements}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Vertical" Width="800"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+    </Border>
 </UserControl>

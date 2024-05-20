@@ -16,8 +16,17 @@
         <DataTemplate DataType="{x:Type bars:PaginationBarViewmodel}">
             <bars:PaginationBar/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type cards:FigureViewmodel}">
+            <cards:Figure/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type cards:ParagraphViewmodel}">
+            <cards:Paragraph/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ReadingViewmodel}">
+            <local:ReadingView/>
+        </DataTemplate>
     </UserControl.Resources>
-    <Border CornerRadius="9" Background="#f0000000">
+    <Border CornerRadius="9" Background="#f0000000" x:Name="container">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -40,15 +49,6 @@
                 </Grid>
             </Grid>
             <Grid Grid.Row="1">
-                <!--<ScrollViewer>
-                    <ItemsControl ItemsSource="{Binding NewsArticles}">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel Orientation="Vertical" Margin="80,20"/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                    </ItemsControl>
-                </ScrollViewer>-->
                 <ItemsControl ItemsSource="{Binding DisplayNewsArticles}">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
@@ -60,6 +60,12 @@
             <Grid Grid.Row="2">
                 <ContentPresenter Content="{Binding PaginationBar}"/>
             </Grid>
+            <!--<materialDesign:DialogHost Grid.Row="0" Grid.RowSpan="3"
+                                       IsOpen="True" 
+                                       DialogContent="{Binding ArticleContent}"
+                                       CloseOnClickAway="False">
+            </materialDesign:DialogHost>-->
+            <ContentPresenter Grid.Row="0" Grid.RowSpan="3" Content="{Binding ArticleContent}" Visibility="{Binding ReadingModeVisibility}"/>
         </Grid>
     </Border>
 </UserControl>
