@@ -17,7 +17,7 @@
                 <TextBlock FontWeight="Bold" Foreground="White" FontSize="25" Margin="50,20">Sections</TextBlock>
             </Grid>
             <Grid Grid.Row="1">
-                
+                <Button HorizontalAlignment="Center" Command="{Binding ExecuteMouseRequestCommand}">Execute Mouse Request Command</Button>
             </Grid>
         </Grid>
     </Border>
