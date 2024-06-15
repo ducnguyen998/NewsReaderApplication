@@ -32,12 +32,12 @@ namespace NewsReaderSystem.UI.Views
 
         public ReadingViewmodel ArticleContent { get; set; }
 
-        public TopStoriesViewmodel(PaginationBarViewmodel paginationBarViewmodel)
+        public TopStoriesViewmodel(ReadingViewmodel readingViewmodel, PaginationBarViewmodel paginationBarViewmodel)
         {
             RefreshCommand = new RelayCommand(DoRefresh);
             PaginationBar = paginationBarViewmodel;
             PaginationBar.PaginationCommandRaised += OnPaginationCommandRaised;
-            ArticleContent = new ReadingViewmodel();
+            ArticleContent = readingViewmodel;
             NewsArticles = new ObservableCollection<NewsCardViewmodel>();
             DisplayNewsArticles = new ObservableCollection<NewsCardViewmodel>();
             dantriCrawler = new DantriCrawler();

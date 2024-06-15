@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|c:\\users\\ryutaros\\documents\\sdh\\int6025 - tuong tac nguoi va may\\apps\\newsreadersystem\\newsreadersystem\\services\\httprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\services\\httprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|c:\\users\\ryutaros\\documents\\sdh\\int6025 - tuong tac nguoi va may\\apps\\newsreadersystem\\newsreadersystem\\ui\\views\\readingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\readingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\sectionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\sectionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\sectionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\sectionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\readingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\readingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\topstoriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\topstoriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\crawler\\dantricrawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\crawler\\dantricrawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\services\\mouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\services\\mouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\readingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\readingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\topstoriesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\topstoriesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\services\\httprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\services\\httprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\sectionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\sectionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\models\\facemousingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +55,12 @@
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\sectionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\readingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\readingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\converters\\negatingconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\converters\\negatingconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\topstoriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\topstoriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\models\\figureelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\models\\figureelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\crawler\\dantricrawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\crawler\\dantricrawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\elements\\figureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\elements\\paragraph.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\elements\\paragraph.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\views\\readingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\views\\readingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\models\\articledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\ui\\bars\\paginationbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\ui\\bars\\paginationbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|solutionrelative:newsreadersystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A881BE7-6A00-4A38-9283-E017784F76AA}|NewsReaderSystem\\NewsReaderSystem.csproj|C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\newsreadersystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -178,11 +186,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\App.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\App.xaml",
@@ -190,65 +198,8 @@
               "RelativeToolTip": "NewsReaderSystem\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-13T16:59:53.121Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FaceMousingResult.cs",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\FaceMousingResult.cs",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\FaceMousingResult.cs",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\FaceMousingResult.cs",
-              "RelativeToolTip": "NewsReaderSystem\\Models\\FaceMousingResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:00:52.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HttpRequestService.cs",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\HttpRequestService.cs",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\Services\\HttpRequestService.cs",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\HttpRequestService.cs",
-              "RelativeToolTip": "NewsReaderSystem\\Services\\HttpRequestService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAQwCwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:59:47.249Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReadingView.xaml",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
-              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-19T15:19:24.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TopStoriesView.xaml",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
-              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T16:23:51.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Paragraph.xaml",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
-              "RelativeToolTip": "NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-19T15:48:20.64Z"
             },
             {
               "$type": "Document",
@@ -258,13 +209,13 @@
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\SectionsViewmodel.cs",
               "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\SectionsViewmodel.cs",
               "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\SectionsViewmodel.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwC8AAAAvAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwCkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T16:27:04.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "SectionsView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\SectionsView.xaml.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\SectionsView.xaml.cs",
@@ -276,19 +227,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "ReadingViewmodel.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
+              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAqwEQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:19:32.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\App.xaml.cs",
+              "RelativeToolTip": "NewsReaderSystem\\App.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAASwCUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:59:59.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TopStoriesViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\TopStoriesViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\TopStoriesViewmodel.cs",
               "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\TopStoriesViewmodel.cs",
               "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\TopStoriesViewmodel.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAAAFsAAAAMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAkwCgAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T04:37:06.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "DantriCrawler.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Crawler\\DantriCrawler.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\Crawler\\DantriCrawler.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Crawler\\DantriCrawler.cs",
+              "RelativeToolTip": "NewsReaderSystem\\Crawler\\DantriCrawler.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAQwLgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T15:21:47.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MouseService.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\MouseService.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\Services\\MouseService.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\MouseService.cs",
+              "RelativeToolTip": "NewsReaderSystem\\Services\\MouseService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwEgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T02:08:36.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReadingView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
+              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\ReadingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T15:19:24.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Paragraph.xaml",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
+              "RelativeToolTip": "NewsReaderSystem\\UI\\Elements\\Paragraph.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T15:48:20.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TopStoriesView.xaml",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
+              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\TopStoriesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T16:23:51.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HttpRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\HttpRequestService.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\Services\\HttpRequestService.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\HttpRequestService.cs",
+              "RelativeToolTip": "NewsReaderSystem\\Services\\HttpRequestService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:59:47.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReadingView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingView.xaml.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\ReadingView.xaml.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingView.xaml.cs",
+              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\ReadingView.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T01:54:43.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FaceMousingResult.cs",
+              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\FaceMousingResult.cs",
+              "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\FaceMousingResult.cs",
+              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\FaceMousingResult.cs",
+              "RelativeToolTip": "NewsReaderSystem\\Models\\FaceMousingResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:00:52.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "SectionsView.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\SectionsView.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\SectionsView.xaml",
@@ -299,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Figure.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\Figure.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\Figure.xaml",
@@ -310,19 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\App.xaml.cs",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\App.xaml.cs",
-              "RelativeToolTip": "NewsReaderSystem\\App.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAApwDUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:59:59.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "IArticleContentElement.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\IArticleContentElement.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\IArticleContentElement.cs",
@@ -334,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ParagraphElement.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\ParagraphElement.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\ParagraphElement.cs",
@@ -346,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Define.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\Define.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\Define.cs",
@@ -358,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\Article.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\Article.cs",
@@ -370,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "FigureViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\FigureViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\FigureViewmodel.cs",
@@ -382,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "FigureElement.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\FigureElement.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\FigureElement.cs",
@@ -394,19 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DantriCrawler.cs",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Crawler\\DantriCrawler.cs",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\Crawler\\DantriCrawler.cs",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Crawler\\DantriCrawler.cs",
-              "RelativeToolTip": "NewsReaderSystem\\Crawler\\DantriCrawler.cs",
-              "ViewState": "AQIAAM0AAAAAAAAAAAAewMYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:21:47.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "NegatingConverter.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Converters\\NegatingConverter.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Converters\\NegatingConverter.cs",
@@ -418,19 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReadingViewmodel.cs",
-              "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
-              "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
-              "ToolTip": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
-              "RelativeToolTip": "NewsReaderSystem\\UI\\Views\\ReadingViewmodel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T15:19:32.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ArticleDetail.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\ArticleDetail.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\ArticleDetail.cs",
@@ -442,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ParagraphViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\ParagraphViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\ParagraphViewmodel.cs",
@@ -454,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "NewsCardViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\NewsCardViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\NewsCardViewmodel.cs",
@@ -466,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "NewsCard.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Elements\\NewsCard.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Elements\\NewsCard.xaml",
@@ -477,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "PaginationBarViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Bars\\PaginationBarViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Bars\\PaginationBarViewmodel.cs",
@@ -489,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "PaginationBar.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Bars\\PaginationBar.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Bars\\PaginationBar.xaml",
@@ -500,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Models\\Author.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Models\\Author.cs",
@@ -512,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\App.config",
               "RelativeDocumentMoniker": "NewsReaderSystem\\App.config",
@@ -524,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "NewsCrawler.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Crawler\\NewsCrawler.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Crawler\\NewsCrawler.cs",
@@ -536,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\MainWindow.xaml",
@@ -547,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "NavigationBarViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Bars\\NavigationBarViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Bars\\NavigationBarViewmodel.cs",
@@ -559,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "NavigationBar.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Bars\\NavigationBar.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Bars\\NavigationBar.xaml",
@@ -570,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "NavigationService.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\NavigationService.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Services\\NavigationService.cs",
@@ -582,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "INavigationService.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\INavigationService.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Services\\INavigationService.cs",
@@ -594,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "LayoutNavigationService.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Services\\LayoutNavigationService.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Services\\LayoutNavigationService.cs",
@@ -606,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\MainWindow.xaml.cs",
@@ -618,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "MainWindowViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\MainWindowViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\MainWindowViewmodel.cs",
@@ -630,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "NavigationStore.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Stores\\NavigationStore.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Stores\\NavigationStore.cs",
@@ -642,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "MainWindowLayout.xaml",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Layouts\\MainWindowLayout.xaml",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Layouts\\MainWindowLayout.xaml",
@@ -653,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "MainWindowLayoutViewmodel.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\UI\\Layouts\\MainWindowLayoutViewmodel.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\UI\\Layouts\\MainWindowLayoutViewmodel.cs",
@@ -665,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "SystemConstant.cs",
               "DocumentMoniker": "C:\\Users\\Ryutaros\\Documents\\SDH\\INT6025 - Tuong tac nguoi va may\\APPs\\NewsReaderSystem\\NewsReaderSystem\\Defines\\SystemConstant.cs",
               "RelativeDocumentMoniker": "NewsReaderSystem\\Defines\\SystemConstant.cs",

@@ -147,6 +147,7 @@
     <Compile Include="Services\HttpRequestService.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\LayoutNavigationService.cs" />
+    <Compile Include="Services\MouseService.cs" />
     <Compile Include="Services\NavigationService.cs" />
     <Compile Include="Stores\NavigationStore.cs" />
     <Compile Include="UI\Bars\NavigationBar.xaml.cs">

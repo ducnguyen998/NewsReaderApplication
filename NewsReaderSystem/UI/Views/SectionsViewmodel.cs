@@ -10,43 +10,45 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Runtime.InteropServices;
 using System.Windows.Threading;
-
+using NewsReaderSystem.Models;
 
 namespace NewsReaderSystem.UI.Views
 {
     public class SectionsViewmodel : ObservableObject
     {
-        [DllImport("user32.dll")]
-        private static extern bool SetCursorPos(int X, int Y);
-
-
         private readonly HttpRequestService httpRequestService = new HttpRequestService();
 
         private readonly DispatcherTimer timer;
 
+        private readonly ReadingViewmodel readingViewmodel;
+
         public ICommand ExecuteMouseRequestCommand { get; set; }
 
-        public SectionsViewmodel()
+        public SectionsViewmodel(ReadingViewmodel readingViewmodel)
         {
             ExecuteMouseRequestCommand = new AsyncRelayCommand(ExecuteMouseRequest);
-
+            this.readingViewmodel = readingViewmodel;
             timer = new DispatcherTimer(DispatcherPriority.Background);
-            timer.Interval = new TimeSpan(10);
+            timer.Interval = new TimeSpan(1);
             timer.Tick += timer_Tick;
-            timer.Start();
+            // timer.Start();
+
+            this.httpRequestService.FaceMousing += HttpRequestService_FaceMousing;
+            Task t1 = this.httpRequestService.ConnectWebSocketAsync();
+            Task.WhenAll(t1);
+        }
+
+        private void HttpRequestService_FaceMousing(object sender, Models.FaceMousingResult e)
+        {
+            if (Keyboard.Modifiers == ModifierKeys.Control)
+                mouseControl(e);
         }
 
         private async void timer_Tick(object sender, EventArgs e)
         {
             if (Keyboard.Modifiers == ModifierKeys.Control)
             {
-                var obj = await httpRequestService.Request();
-                
-                if (obj != null)
-                {
-                    Console.WriteLine(obj);
-                    SetCursorPos(obj.x, obj.y);
-                }
+                await ExecuteMouseRequest();
             }
         }
 
@@ -54,11 +56,31 @@ namespace NewsReaderSystem.UI.Views
         {
             var mouseObject = await httpRequestService.Request();
 
+            mouseControl(mouseObject);
+        }
+
+
+        private void mouseControl(FaceMousingResult mouseObject)
+        {
             if (mouseObject != null)
             {
                 Console.WriteLine(mouseObject);
 
-                SetCursorPos(mouseObject.x, mouseObject.y);
+                switch (mouseObject.state)
+                {
+                    case 2:
+                        MouseService.ClickAtPosition(mouseObject.x, mouseObject.y);
+                        Console.WriteLine("--------------------------------- CLICK ----------------------------------");
+                        break;
+                    case 3:
+                    case 4:
+                        readingViewmodel.Scroll("Up");
+                        Console.WriteLine("--------------------------------- SCROLL MODE ----------------------------------");
+                        break;
+
+                }
+
+                MouseService.SendMouseMove(mouseObject.x, mouseObject.y);
             }
         }
     }

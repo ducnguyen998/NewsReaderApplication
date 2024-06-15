@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,43 @@ namespace NewsReaderSystem.UI.Views
         public ReadingView()
         {
             InitializeComponent();
+            DataContextChanged += ReadingView_DataContextChanged;
+        }
+
+        private void ReadingView_DataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (e.NewValue is ReadingViewmodel viewModel)
+            {
+                viewModel.PropertyChanged += ViewModel_PropertyChanged;
+            }
+
+        }
+
+        private void ViewModel_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            if (sender is ReadingViewmodel viewModel)
+            {
+                App.Current.Dispatcher.Invoke(() =>
+                {
+                    if (e.PropertyName == nameof(viewModel.VerticalOffset))
+                    {
+                        scrollViewer.ScrollToVerticalOffset(viewModel.VerticalOffset);
+                    }
+                    else if (e.PropertyName == nameof(viewModel.HorizontalOffset))
+                    {
+                        scrollViewer.ScrollToHorizontalOffset(viewModel.HorizontalOffset);
+                    }
+                });
+            }
+        }
+
+        private void ScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            if (DataContext is ReadingViewmodel viewModel)
+            {
+                viewModel.VerticalOffset = scrollViewer.VerticalOffset;
+                viewModel.HorizontalOffset = scrollViewer.HorizontalOffset;
+            }
         }
     }
 }

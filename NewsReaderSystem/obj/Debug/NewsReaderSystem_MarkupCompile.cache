@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\obj\Debug\
+E:\Master\HMI\NewsReaderSystem\NewsReaderSystem\obj\Debug\
 NewsReaderSystem
 none
 false
 DEBUG;TRACE
-C:\Users\Ryutaros\Documents\SDH\INT6025 - Tuong tac nguoi va may\APPs\NewsReaderSystem\NewsReaderSystem\App.xaml
+E:\Master\HMI\NewsReaderSystem\NewsReaderSystem\App.xaml
 10-2045683328
 
-41-2038093125
-1371821630064
+42303869103
+137515146282
 MainWindow.xaml;UI\Bars\NavigationBar.xaml;UI\Bars\PaginationBar.xaml;UI\Elements\Figure.xaml;UI\Elements\NewsCard.xaml;UI\Elements\Paragraph.xaml;UI\Layouts\MainWindowLayout.xaml;UI\Views\ReadingView.xaml;UI\Views\SectionsView.xaml;UI\Views\TopStoriesView.xaml;
 
 False

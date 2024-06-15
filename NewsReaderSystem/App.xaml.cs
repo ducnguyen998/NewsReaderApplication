@@ -35,6 +35,7 @@ namespace NewsReaderSystem
 
             services.AddSingleton<PaginationBarViewmodel>();
 
+            services.AddSingleton<ReadingViewmodel>();
             services.AddSingleton<SectionsViewmodel>();
             services.AddSingleton<TopStoriesViewmodel>();
 

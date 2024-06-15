@@ -182,7 +182,7 @@ namespace NewsReaderSystem.Crawler
 
                     var sapoNode = detailArticle.SelectSingleNode(".//h2[contains(@class, 'singular-sapo')]") ?? 
                                    detailArticle.SelectSingleNode(".//h2[contains(@class, 'e-magazine__sapo')]");
-                    string sapo = sapoNode.InnerText.Trim().Replace("&quot;", "'");
+                    string sapo = sapoNode?.InnerText.Trim().Replace("&quot;", "'");
 
                     retArticleDetail.Sapo = sapo;
 

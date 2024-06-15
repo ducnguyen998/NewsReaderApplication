@@ -7,6 +7,7 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:cards="clr-namespace:NewsReaderSystem.UI.Elements"
              xmlns:cvt="clr-namespace:NewsReaderSystem.Converters"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
@@ -36,12 +37,12 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0">
-                    <Button Height="60" Margin="10" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" VerticalAlignment="Top">
+                    <!--<Button Height="60" Margin="10" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" VerticalAlignment="Top">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ArrowLeft" Foreground="White" Height="30" Width="30"/>
                             <TextBlock Foreground="White" FontSize="20" Margin="10,0,0,0">Back</TextBlock>
                         </StackPanel>
-                    </Button>
+                    </Button>-->
                 </Grid>
                 <Grid Grid.Column="1">
                     <StackPanel Orientation="Vertical" Margin="5,15,5,5">
@@ -63,27 +64,90 @@
                             <materialDesign:PackIcon Kind="CircleSmall" Foreground="White" Height="30" Width="30" VerticalAlignment="Center"/>
                             <TextBlock Foreground="White" VerticalAlignment="Center" FontSize="15">dantri.com.vn</TextBlock>
                         </StackPanel>
+                        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button Command="{Binding ScrollCommand}" CommandParameter="Up">Scroll Up</Button>
+                            <Button Command="{Binding ScrollCommand}" CommandParameter="Down">Scroll Down</Button>
+                        </StackPanel>-->
                     </StackPanel>
                 </Grid>
                 <Grid Grid.Column="2">
-                    <Button Height="60" Margin="10" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" VerticalAlignment="Top">
+                    <!--<Button Height="60" Margin="10" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" VerticalAlignment="Top">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="BackspaceOutline" Foreground="Red" Height="30" Width="30"/>
                             <TextBlock Foreground="Red" FontSize="20" Margin="10,0,0,0">Close</TextBlock>
                         </StackPanel>
-                    </Button>
+                    </Button>-->
                 </Grid>
             </Grid>
             <Grid Grid.Row="1">
-                <ScrollViewer>
-                    <ItemsControl ItemsSource="{Binding Elements}">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel Orientation="Vertical" Width="800"/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                    </ItemsControl>
-                </ScrollViewer>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="2">
+                    <!--<Button Height="auto" VerticalAlignment="Stretch" Background="#90600000" Margin="0" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="BackspaceOutline" Foreground="Red" Height="30" Width="30"/>
+                            <TextBlock Foreground="Red" FontSize="20" Margin="10,0,0,0">Close</TextBlock>
+                        </StackPanel>
+                    </Button>-->
+                    <UniformGrid Rows="2">
+                        <Button 
+                            Height="auto" 
+                            VerticalAlignment="Stretch" 
+                            Background="#90600000" Foreground="White"
+                            Margin="0,0,0,2"
+                            Command="{Binding ScrollCommand}" 
+                            Style="{StaticResource MaterialDesignFlatDarkButton}"
+                            CommandParameter="Up" Content="Scroll Up">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseEnter">
+                                    <i:InvokeCommandAction Command="{Binding HoverCommand}" CommandParameter="up"/>
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="MouseLeave">
+                                    <i:InvokeCommandAction Command="{Binding LeaveCommand}" CommandParameter="up" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </Button>
+                        <Button 
+                            Height="auto" 
+                            VerticalAlignment="Stretch" 
+                            Background="#90600000" Foreground="White"
+                            Margin="0,2,0,0"
+                            Command="{Binding ScrollCommand}" 
+                            Style="{StaticResource MaterialDesignFlatDarkButton}"
+                            CommandParameter="Down" Content="Scroll Down">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseEnter">
+                                    <i:InvokeCommandAction Command="{Binding HoverCommand}" CommandParameter="down"/>
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="MouseLeave">
+                                    <i:InvokeCommandAction Command="{Binding LeaveCommand}" CommandParameter="down" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </Button>
+                    </UniformGrid>
+                </Grid>
+                <Grid Grid.Column="1" Margin="20">
+                    <ScrollViewer x:Name="scrollViewer" ScrollChanged="ScrollViewer_ScrollChanged">
+                        <ItemsControl ItemsSource="{Binding Elements}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical" Width="800"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Grid>
+                <Grid Grid.Column="0">
+                    <Button Height="auto" VerticalAlignment="Stretch" Background="#90600000" Margin="0" Style="{StaticResource MaterialDesignFlatDarkButton}" Command="{Binding CloseCommand}" >
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ArrowLeft" Foreground="White" Height="30" Width="30"/>
+                            <TextBlock Foreground="White" FontSize="20" Margin="10,0,0,0">Back</TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Grid>
             </Grid>
         </Grid>
     </Border>
